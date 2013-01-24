@@ -27,7 +27,7 @@ var app = {
         // This is an event handler function, which means the scope is the event.
         // So, we must explicitly called `app.report()` instead of `this.report()`.
         app.report('deviceready');
-        var link="http://192.168.1.52:8080";
+        var link="http://192.168.2.107:8080";
         window.plugins.childBrowser.showWebPage(link,{ showLocationBar: true });
     },
     report: function(id) {
