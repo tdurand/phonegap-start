@@ -28,7 +28,7 @@ var app = {
         // So, we must explicitly called `app.report()` instead of `this.report()`.
         app.report('deviceready');
         var link="http://192.168.2.107:8080";
-        window.plugins.childBrowser.showWebPage(link,{ showLocationBar: true });
+        //window.plugins.childBrowser.showWebPage(link,{ showLocationBar: true });
     },
     report: function(id) {
         // Report the event in the console
